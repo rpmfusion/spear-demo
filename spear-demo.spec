@@ -1,6 +1,6 @@
 Name:           spear-demo
 Version:        1
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Spear of Destiny Demo
 Group:          Amusements/Games
 License:        Distributable
@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Aug 31 2014 Sérgio Basto <sergio@serjux.com> - 1-4
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_21_22_Mass_Rebuild
+
 * Tue Mar 12 2013 Nicolas Chauvet <kwizart@gmail.com> - 1-3
 - https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
